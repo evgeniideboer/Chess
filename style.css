@@ -18,6 +18,7 @@ body {
   width: 100px;
   height: 100px;
   display: flex;
+
   text-align: center;
   justify-content: center;
   transition: opacity 0.05s ease-in-out 0.05s, border 0.05s ease-in-out 0.05s;
@@ -56,6 +57,16 @@ body {
 
 .btn:hover {
   transform: scale(1.05);
+}
+
+@media (max-width: 700px) {
+  .row {
+    height: 40px;
+  }
+  .field {
+    width: 40px;
+    height: 40px;
+  }
 }
 
 .checkbox-green {
