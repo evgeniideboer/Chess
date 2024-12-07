@@ -21,7 +21,16 @@ body {
 
   text-align: center;
   justify-content: center;
+  align-items: center;
   transition: opacity 0.05s ease-in-out 0.05s, border 0.05s ease-in-out 0.05s;
+}
+
+.icon {
+  width: 75px;
+  height: 75px;
+  margin: 0;
+  padding: 0;
+  z-index: 2;
 }
 
 .field:hover {
