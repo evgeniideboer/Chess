@@ -34,8 +34,14 @@ body {
 }
 
 .field:hover {
-  opacity: 0.3;
+  opacity: 0.7;
   border: 3px solid black;
+}
+
+.icon:hover {
+  width: 78px;
+  height: 78px;
+  opacity: 1;
 }
 #container {
   display: flex;
