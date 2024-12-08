@@ -41,8 +41,8 @@ theme.addEventListener("change", function () {
   }
 });
 
-document.querySelector(".btn_King").onclick = MoveKing;
-document.querySelector(".btn_Knight").onclick = MoveKnight;
+document.querySelector("#btn_King").onclick = MoveKing;
+document.querySelector("#btn_Knight").onclick = MoveKnight;
 
 function MoveKing() {
   arr_chessboard = [];
